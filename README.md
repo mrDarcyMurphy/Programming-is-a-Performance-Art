@@ -1,3 +1,3 @@
 # Programming is a Performance Art
 
-My personal programming philosophy.
+A presentation of my personal programming philosophy.
