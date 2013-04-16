@@ -58,6 +58,7 @@ body {
 .reveal blockquote { padding: 0.5em; }
 .reveal blockquote p:last-child { margin-bottom: 0; }
 .reveal blockquote + p { margin-top: 0.5em; }
+.reveal blockquote code { font-style: normal; }
 
 /*********************************************
  * HEADERS
