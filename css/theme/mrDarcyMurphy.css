@@ -49,10 +49,15 @@ body {
   background: #ff5e99;
   text-shadow: none; }
 
-.reveal p { font-family: "GoudyBookletter", serif; }
-.reveal p i,
-.reveal p em { font-family: "GoudyBookletterItalic", serif; }
 
+.reveal p { font-family: "GoudyBookletter", serif; }
+.reveal p + p { margin-top: 0.5em; }
+.reveal p i, .reveal p em { font-family: "GoudyBookletterItalic", serif; }
+
+.reveal blockquote:before, .reveal blockquote:after { content: none; }
+.reveal blockquote { padding: 0.5em; }
+.reveal blockquote p:last-child { margin-bottom: 0; }
+.reveal blockquote + p { margin-top: 0.5em; }
 
 /*********************************************
  * HEADERS
