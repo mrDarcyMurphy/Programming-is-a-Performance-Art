@@ -70,7 +70,11 @@ body {
 
 .reveal table { margin:0 auto; border-collapse: collapse; }
 .reveal table tr td { border-bottom: 1px solid rgba(255,255,255,0.25); padding: 16px; width: 50%; }
-.reveal table th { text-shadow: #FFF 0 1px 2px; border-bottom: 8px double rgba(255,255,255,0.25); padding: 16px; }
+.reveal table th {
+  padding: 16px;
+  border-bottom: 8px double rgba(255,255,255,0.25);
+  text-shadow: #FFF 0 1px 2px;
+}
 
 
 /*********************************************
