@@ -35,7 +35,8 @@
  *********************************************/
 body {
   background: #1c1e20;
-  background-color: #2b2b2b; }
+  background-color: #2b2b2b;
+  }
 
 .reveal {
   font-family: "Lato", sans-serif;
@@ -69,7 +70,8 @@ body {
 .reveal div.inline * { display: inline; }
 
 .reveal table { margin:0 auto; border-collapse: collapse; }
-.reveal table tr td { border-bottom: 1px solid rgba(255,255,255,0.25); padding: 16px; width: 50%; }
+.reveal table tr td { border-bottom: 1px solid rgba(255,255,255,0.25); padding: 16px; width: 48.75%; }
+.reveal table tr td:nth-child(2) { width: 2.5%; }
 .reveal table th {
   padding: 16px;
   border-bottom: 8px double rgba(255,255,255,0.25);
